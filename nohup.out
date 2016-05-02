@@ -1,0 +1,2046 @@
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.4%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91345.00 Pa
+Altitude = 866.31 m
+Sealevel Pressure = 91345.00 Pa
+
+TSL2561:
+Lux: 660.113915366
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91346.00 Pa
+Altitude = 866.67 m
+Sealevel Pressure = 91347.00 Pa
+
+TSL2561:
+Lux: 728.875409605
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.50 *C
+Pressure = 91347.00 Pa
+Altitude = 865.86 m
+Sealevel Pressure = 91344.00 Pa
+
+TSL2561:
+Lux: 960.237262074
+
+Writing to db
+Highest: 33.5999984741
+Lowest: 33.5
+Average: 33.5499992371
+Variance: 0.0999984741211
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.7 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91342.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91346.00 Pa
+
+TSL2561:
+Lux: 734.380133614
+
+Writing to db
+Highest: 33.7000007629
+Lowest: 33.6
+Average: 33.6500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91348.00 Pa
+Altitude = 866.49 m
+Sealevel Pressure = 91338.00 Pa
+
+TSL2561:
+Lux: 1004.44836608
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.7 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91346.00 Pa
+Altitude = 866.04 m
+Sealevel Pressure = 91343.00 Pa
+
+TSL2561:
+Lux: 1013.27057668
+
+Writing to db
+Highest: 33.7000007629
+Lowest: 33.6
+Average: 33.6500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.2%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91351.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91337.00 Pa
+
+TSL2561:
+Lux: 734.380133614
+
+Writing to db
+Traceback (most recent call last):
+  File "read.py", line 53, in <module>
+    curs.execute("INSERT INTO sensor values(datetime('now'),?,?,?,?,?,?)",(temp,humidity,pressure,altitude,slpressure,lux))
+sqlite3.OperationalError: table sensor has 8 columns but 7 values were supplied
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91345.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91345.00 Pa
+
+TSL2561:
+Lux: 728.875409605
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.2%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91344.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91349.00 Pa
+
+TSL2561:
+Lux: 1019.17505418
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91347.00 Pa
+Altitude = 866.67 m
+Sealevel Pressure = 91343.00 Pa
+
+TSL2561:
+Lux: 752.421272344
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.4%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91345.00 Pa
+Altitude = 866.94 m
+Sealevel Pressure = 91343.00 Pa
+
+TSL2561:
+Lux: 960.237262074
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.7 *C
+Humidity=49.4%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91345.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91340.00 Pa
+
+TSL2561:
+Lux: 710.828865572
+
+Writing to db
+Highest: 33.7000007629
+Lowest: 33.6
+Average: 33.6500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91347.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91345.00 Pa
+
+TSL2561:
+Lux: 986.784232693
+
+Writing to db
+Highest: 33.6
+Lowest: 33.5999984741
+Average: 33.5999992371
+Variance: 1.52587890767e-06
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.3%
+
+BMP180:
+Temp Sensor 2 = 33.50 *C
+Pressure = 91349.00 Pa
+Altitude = 866.40 m
+Sealevel Pressure = 91345.00 Pa
+
+TSL2561:
+Lux: 698.171359757
+
+Writing to db
+Highest: 33.5999984741
+Lowest: 33.5
+Average: 33.5499992371
+Variance: 0.0999984741211
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.7 *C
+Humidity=49.4%
+
+BMP180:
+Temp Sensor 2 = 33.50 *C
+Pressure = 91341.00 Pa
+Altitude = 866.22 m
+Sealevel Pressure = 91341.00 Pa
+
+TSL2561:
+Lux: 969.093157671
+
+Writing to db
+Highest: 33.7000007629
+Lowest: 33.5
+Average: 33.6000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 33.6 *C
+Humidity=49.4%
+
+BMP180:
+Temp Sensor 2 = 33.60 *C
+Pressure = 91338.00 Pa
+Altitude = 866.58 m
+Sealevel Pressure = 91336.00 Pa
+
+TSL2561:
+Lux: 710.828865572
+
+Writing to db
+Traceback (most recent call last):
+  File "read.py", line 53, in <module>
+    curs.execute("INSERT INTO sensor values(datetime('now'),?,?,?,?,?,?)",(temp,humidity,pressure,altitude,slpressure,lux))
+sqlite3.OperationalError: table sensor has 8 columns but 7 values were supplied
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=45.3%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91465.00 Pa
+Altitude = 855.63 m
+Sealevel Pressure = 91466.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5
+Lowest: 32.1
+Average: 32.3
+Variance: 0.4
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.3%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91462.00 Pa
+Altitude = 855.72 m
+Sealevel Pressure = 91455.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.1
+Average: 32.1500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.4%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91463.00 Pa
+Altitude = 856.17 m
+Sealevel Pressure = 91459.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.1
+Average: 32.1500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.5%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91461.00 Pa
+Altitude = 855.72 m
+Sealevel Pressure = 91455.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.1
+Average: 32.1500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91462.00 Pa
+Altitude = 856.26 m
+Sealevel Pressure = 91456.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.1
+Average: 32.1500003815
+Variance: 0.100000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91457.00 Pa
+Altitude = 856.54 m
+Sealevel Pressure = 91446.00 Pa
+
+TSL2561:
+Lux: 1166.16769571
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.9%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91451.00 Pa
+Altitude = 856.35 m
+Sealevel Pressure = 91450.00 Pa
+
+TSL2561:
+Lux: 236.9803
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.1 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91452.00 Pa
+Altitude = 856.54 m
+Sealevel Pressure = 91452.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.0999984741
+Lowest: 32.0
+Average: 32.0499992371
+Variance: 0.0999984741211
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.1 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91456.00 Pa
+Altitude = 856.63 m
+Sealevel Pressure = 91447.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.0999984741
+Lowest: 32.0
+Average: 32.0499992371
+Variance: 0.0999984741211
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.9%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91452.00 Pa
+Altitude = 856.26 m
+Sealevel Pressure = 91444.00 Pa
+
+TSL2561:
+Lux: 52.6687
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.9%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91455.00 Pa
+Altitude = 856.81 m
+Sealevel Pressure = 91450.00 Pa
+
+TSL2561:
+Lux: 28.3568
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=46.0%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91448.00 Pa
+Altitude = 857.08 m
+Sealevel Pressure = 91447.00 Pa
+
+TSL2561:
+Lux: 601.195151232
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.7%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91456.00 Pa
+Altitude = 857.26 m
+Sealevel Pressure = 91445.00 Pa
+
+TSL2561:
+Lux: 2.9289
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.3 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91447.00 Pa
+Altitude = 857.08 m
+Sealevel Pressure = 91447.00 Pa
+
+TSL2561:
+Lux: 15.33454
+
+Writing to db
+Highest: 32.2999992371
+Lowest: 32.0
+Average: 32.1499996185
+Variance: 0.299999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=46.0%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91454.00 Pa
+Altitude = 857.17 m
+Sealevel Pressure = 91451.00 Pa
+
+TSL2561:
+Lux: 1038.38624989
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.6%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91448.00 Pa
+Altitude = 857.26 m
+Sealevel Pressure = 91444.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.6%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91450.00 Pa
+Altitude = 857.26 m
+Sealevel Pressure = 91449.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.7%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91446.00 Pa
+Altitude = 856.90 m
+Sealevel Pressure = 91445.00 Pa
+
+TSL2561:
+Lux: 142.2563
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.7%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91445.00 Pa
+Altitude = 857.08 m
+Sealevel Pressure = 91440.00 Pa
+
+TSL2561:
+Lux: 21.63928
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91441.00 Pa
+Altitude = 857.08 m
+Sealevel Pressure = 91441.00 Pa
+
+TSL2561:
+Lux: 973.651138988
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91448.00 Pa
+Altitude = 857.17 m
+Sealevel Pressure = 91443.00 Pa
+
+TSL2561:
+Lux: 993.941431193
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.9%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91442.00 Pa
+Altitude = 858.16 m
+Sealevel Pressure = 91442.00 Pa
+
+TSL2561:
+Lux: 143.149
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=46.0%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91442.00 Pa
+Altitude = 857.80 m
+Sealevel Pressure = 91437.00 Pa
+
+TSL2561:
+Lux: 142.493681907
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.2 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91435.00 Pa
+Altitude = 857.80 m
+Sealevel Pressure = 91434.00 Pa
+
+TSL2561:
+Lux: 259.7615
+
+Writing to db
+Highest: 32.2000007629
+Lowest: 32.0
+Average: 32.1000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.3 *C
+Humidity=45.9%
+
+BMP180:
+Temp Sensor 2 = 32.00 *C
+Pressure = 91436.00 Pa
+Altitude = 857.98 m
+Sealevel Pressure = 91435.00 Pa
+
+TSL2561:
+Lux: 68.98632
+
+Writing to db
+Highest: 32.2999992371
+Lowest: 32.0
+Average: 32.1499996185
+Variance: 0.299999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.3 *C
+Humidity=45.8%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91432.00 Pa
+Altitude = 858.44 m
+Sealevel Pressure = 91429.00 Pa
+
+TSL2561:
+Lux: 57.95998
+
+Writing to db
+Highest: 32.2999992371
+Lowest: 32.1
+Average: 32.1999996185
+Variance: 0.199999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.3 *C
+Humidity=45.6%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91432.00 Pa
+Altitude = 858.44 m
+Sealevel Pressure = 91433.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.2999992371
+Lowest: 32.1
+Average: 32.1999996185
+Variance: 0.199999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.3 *C
+Humidity=44.8%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91438.00 Pa
+Altitude = 858.89 m
+Sealevel Pressure = 91426.00 Pa
+
+TSL2561:
+Lux: 221.314
+
+Writing to db
+Highest: 32.2999992371
+Lowest: 32.1
+Average: 32.1999996185
+Variance: 0.199999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.3 *C
+Humidity=44.7%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91432.00 Pa
+Altitude = 858.80 m
+Sealevel Pressure = 91425.00 Pa
+
+TSL2561:
+Lux: 148.68672
+
+Writing to db
+Highest: 32.2999992371
+Lowest: 32.1
+Average: 32.1999996185
+Variance: 0.199999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.2%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91427.00 Pa
+Altitude = 858.16 m
+Sealevel Pressure = 91427.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.0%
+
+BMP180:
+Temp Sensor 2 = 32.10 *C
+Pressure = 91428.00 Pa
+Altitude = 859.25 m
+Sealevel Pressure = 91428.00 Pa
+
+TSL2561:
+Lux: 1490.656
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.1
+Average: 32.2500007629
+Variance: 0.300001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.4%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91427.00 Pa
+Altitude = 858.98 m
+Sealevel Pressure = 91423.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.3%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91422.00 Pa
+Altitude = 859.07 m
+Sealevel Pressure = 91420.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.3%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91416.00 Pa
+Altitude = 859.88 m
+Sealevel Pressure = 91419.00 Pa
+
+TSL2561:
+Lux: 653.47776
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.3%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91412.00 Pa
+Altitude = 860.25 m
+Sealevel Pressure = 91408.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.2%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91411.00 Pa
+Altitude = 860.15 m
+Sealevel Pressure = 91408.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.0%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91411.00 Pa
+Altitude = 860.06 m
+Sealevel Pressure = 91413.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.2%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91409.00 Pa
+Altitude = 860.79 m
+Sealevel Pressure = 91409.00 Pa
+
+TSL2561:
+Lux: 1068.25797796
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.2%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91409.00 Pa
+Altitude = 860.34 m
+Sealevel Pressure = 91408.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.1%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91415.00 Pa
+Altitude = 860.70 m
+Sealevel Pressure = 91401.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.1%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91407.00 Pa
+Altitude = 861.06 m
+Sealevel Pressure = 91401.00 Pa
+
+TSL2561:
+Lux: 379.352138709
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.3
+Average: 32.3500007629
+Variance: 0.100001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.7%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91403.00 Pa
+Altitude = 861.24 m
+Sealevel Pressure = 91403.00 Pa
+
+TSL2561:
+Lux: 2.59298
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.2
+Average: 32.3999992371
+Variance: 0.399998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=44.5%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91397.00 Pa
+Altitude = 861.42 m
+Sealevel Pressure = 91401.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5
+Lowest: 32.3
+Average: 32.4
+Variance: 0.2
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91402.00 Pa
+Altitude = 861.33 m
+Sealevel Pressure = 91400.00 Pa
+
+TSL2561:
+Lux: 8530.51834941
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91405.00 Pa
+Altitude = 861.42 m
+Sealevel Pressure = 91400.00 Pa
+
+TSL2561:
+Lux: 99.69856
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=43.0%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91397.00 Pa
+Altitude = 862.15 m
+Sealevel Pressure = 91397.00 Pa
+
+TSL2561:
+Lux: 36.615
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.3
+Average: 32.5000003815
+Variance: 0.400000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=44.1%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91393.00 Pa
+Altitude = 862.15 m
+Sealevel Pressure = 91391.00 Pa
+
+TSL2561:
+Lux: 52.6896
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.3
+Average: 32.5000003815
+Variance: 0.400000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=43.0%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91397.00 Pa
+Altitude = 861.87 m
+Sealevel Pressure = 91394.00 Pa
+
+TSL2561:
+Lux: 45.5914
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.3
+Average: 32.5000003815
+Variance: 0.400000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=43.8%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91393.00 Pa
+Altitude = 862.42 m
+Sealevel Pressure = 91394.00 Pa
+
+TSL2561:
+Lux: 1349.9173588
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.3
+Average: 32.5000003815
+Variance: 0.400000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=44.0%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91399.00 Pa
+Altitude = 862.78 m
+Sealevel Pressure = 91388.00 Pa
+
+TSL2561:
+Lux: 296.182520342
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.3
+Average: 32.5000003815
+Variance: 0.400000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91392.00 Pa
+Altitude = 862.06 m
+Sealevel Pressure = 91387.00 Pa
+
+TSL2561:
+Lux: 2181.2416
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91386.00 Pa
+Altitude = 862.06 m
+Sealevel Pressure = 91394.00 Pa
+
+TSL2561:
+Lux: 3747.9616
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91388.00 Pa
+Altitude = 863.32 m
+Sealevel Pressure = 91382.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.6%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91386.00 Pa
+Altitude = 862.87 m
+Sealevel Pressure = 91382.00 Pa
+
+TSL2561:
+Lux: 56.7146
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.7%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91381.00 Pa
+Altitude = 862.96 m
+Sealevel Pressure = 91384.00 Pa
+
+TSL2561:
+Lux: 4.81988
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.7%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91381.00 Pa
+Altitude = 862.96 m
+Sealevel Pressure = 91386.00 Pa
+
+TSL2561:
+Lux: 196.7601
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.6%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91385.00 Pa
+Altitude = 862.78 m
+Sealevel Pressure = 91377.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91384.00 Pa
+Altitude = 863.14 m
+Sealevel Pressure = 91377.00 Pa
+
+TSL2561:
+Lux: 240.8317
+
+Writing to db
+Highest: 32.5
+Lowest: 32.2
+Average: 32.35
+Variance: 0.3
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=44.0%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91378.00 Pa
+Altitude = 863.50 m
+Sealevel Pressure = 91372.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.3
+Average: 32.3500007629
+Variance: 0.100001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.0%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91380.00 Pa
+Altitude = 863.05 m
+Sealevel Pressure = 91372.00 Pa
+
+TSL2561:
+Lux: 470.623964339
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.3%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91371.00 Pa
+Altitude = 863.68 m
+Sealevel Pressure = 91371.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.5%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91371.00 Pa
+Altitude = 863.96 m
+Sealevel Pressure = 91366.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.2
+Average: 32.3999992371
+Variance: 0.399998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=44.7%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91370.00 Pa
+Altitude = 864.14 m
+Sealevel Pressure = 91378.00 Pa
+
+TSL2561:
+Lux: 61.237957432
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.2
+Average: 32.3999992371
+Variance: 0.399998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=44.8%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91374.00 Pa
+Altitude = 864.32 m
+Sealevel Pressure = 91368.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5
+Lowest: 32.2
+Average: 32.35
+Variance: 0.3
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=44.8%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91374.00 Pa
+Altitude = 863.96 m
+Sealevel Pressure = 91366.00 Pa
+
+TSL2561:
+Lux: 134.1347
+
+Writing to db
+Highest: 32.5
+Lowest: 32.2
+Average: 32.35
+Variance: 0.3
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=44.9%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91373.00 Pa
+Altitude = 864.23 m
+Sealevel Pressure = 91370.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.0%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91368.00 Pa
+Altitude = 863.87 m
+Sealevel Pressure = 91365.00 Pa
+
+TSL2561:
+Lux: 1573.79689444
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.0%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91369.00 Pa
+Altitude = 864.41 m
+Sealevel Pressure = 91365.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.0%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91368.00 Pa
+Altitude = 864.50 m
+Sealevel Pressure = 91363.00 Pa
+
+TSL2561:
+Lux: 57.621
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.4 *C
+Humidity=45.1%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91364.00 Pa
+Altitude = 864.68 m
+Sealevel Pressure = 91363.00 Pa
+
+TSL2561:
+Lux: 42.5113
+
+Writing to db
+Highest: 32.4000015259
+Lowest: 32.2
+Average: 32.3000007629
+Variance: 0.200001525879
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=45.0%
+
+BMP180:
+Temp Sensor 2 = 32.20 *C
+Pressure = 91360.00 Pa
+Altitude = 864.77 m
+Sealevel Pressure = 91361.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5
+Lowest: 32.2
+Average: 32.35
+Variance: 0.3
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=44.7%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91357.00 Pa
+Altitude = 864.86 m
+Sealevel Pressure = 91357.00 Pa
+
+TSL2561:
+Lux: 42.86464
+
+Writing to db
+Highest: 32.5
+Lowest: 32.3
+Average: 32.4
+Variance: 0.2
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=44.6%
+
+BMP180:
+Temp Sensor 2 = 32.40 *C
+Pressure = 91360.00 Pa
+Altitude = 865.04 m
+Sealevel Pressure = 91365.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5
+Lowest: 32.4
+Average: 32.45
+Variance: 0.1
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.6 *C
+Humidity=43.7%
+
+BMP180:
+Temp Sensor 2 = 32.30 *C
+Pressure = 91352.00 Pa
+Altitude = 864.86 m
+Sealevel Pressure = 91357.00 Pa
+
+TSL2561:
+Lux: 1322.06228957
+
+Writing to db
+Highest: 32.5999984741
+Lowest: 32.3
+Average: 32.4499992371
+Variance: 0.299998474121
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.5 *C
+Humidity=43.8%
+
+BMP180:
+Temp Sensor 2 = 32.40 *C
+Pressure = 91364.00 Pa
+Altitude = 864.86 m
+Sealevel Pressure = 91356.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.5
+Lowest: 32.4
+Average: 32.45
+Variance: 0.1
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.8 *C
+Humidity=43.3%
+
+BMP180:
+Temp Sensor 2 = 32.50 *C
+Pressure = 91356.00 Pa
+Altitude = 865.04 m
+Sealevel Pressure = 91361.00 Pa
+
+TSL2561:
+Lux: 0.1859
+
+Writing to db
+Highest: 32.7999992371
+Lowest: 32.5
+Average: 32.6499996185
+Variance: 0.299999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.8 *C
+Humidity=43.5%
+
+BMP180:
+Temp Sensor 2 = 32.60 *C
+Pressure = 91343.00 Pa
+Altitude = 865.68 m
+Sealevel Pressure = 91357.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.7999992371
+Lowest: 32.6
+Average: 32.6999996185
+Variance: 0.199999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.8 *C
+Humidity=43.1%
+
+BMP180:
+Temp Sensor 2 = 32.50 *C
+Pressure = 91346.00 Pa
+Altitude = 866.13 m
+Sealevel Pressure = 91348.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.7999992371
+Lowest: 32.5
+Average: 32.6499996185
+Variance: 0.299999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.8 *C
+Humidity=43.1%
+
+BMP180:
+Temp Sensor 2 = 32.50 *C
+Pressure = 91352.00 Pa
+Altitude = 864.86 m
+Sealevel Pressure = 91349.00 Pa
+
+TSL2561:
+Lux: 0
+
+Writing to db
+Highest: 32.7999992371
+Lowest: 32.5
+Average: 32.6499996185
+Variance: 0.299999237061
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=43.7%
+
+BMP180:
+Temp Sensor 2 = 32.50 *C
+Pressure = 91343.00 Pa
+Altitude = 865.95 m
+Sealevel Pressure = 91348.00 Pa
+
+TSL2561:
+Lux: 798.353671264
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.5
+Average: 32.6000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.7 *C
+Humidity=43.5%
+
+BMP180:
+Temp Sensor 2 = 32.50 *C
+Pressure = 91350.00 Pa
+Altitude = 865.95 m
+Sealevel Pressure = 91359.00 Pa
+
+TSL2561:
+Lux: 280.6713
+
+Writing to db
+Highest: 32.7000007629
+Lowest: 32.5
+Average: 32.6000003815
+Variance: 0.200000762939
+
+************************
+
+AM2302:
+Temp Sensor 1 = 32.8 *C
+Humidity=42.8%
+
+BMP180:
+Temp Sensor 2 = 32.50 *C
+Pressure = 91342.00 Pa
+Altitude = 866.85 m
+Sealevel Pressure = 91339.00 Pa
+
+TSL2561:
+Lux: 794.295730942
+
+Writing to db
+Highest: 3
